@@ -931,3 +931,7 @@ class BlaggingRegressor(BaseBagging, RegressorMixin):
 
         self.oob_prediction_ = predictions
         self.oob_score_ = r2_score(y, predictions)
+
+
+
+#end
