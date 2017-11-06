@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # ## 2012数据探索
-# 本ipython notebook使用2种方法(Gradient Boosting regression 和 OLS回归)在2012数据上小试验一把。 
+#使用2种方法(Gradient Boosting regression 和 OLS回归)在2012数据上小试验一把。 
 
 # In[408]:
 
@@ -32,7 +32,7 @@ loads['timestamp'] = loads.timestamp.apply(lambda x: pd.to_datetime(x))
 
 
 # ## 2. 补充缺失的天气信息
-# 天气信息的频度是小时级别的，我们载入的2012数据是每5分钟的间隔。下面这个函数实际上就是使用KNN去补全5分钟级别数据里的天气信息。
+# 天气信息的频度是小时级别的，载入的2012数据是每5分钟的间隔。下面这个函数实际上就是使用KNN去补全5分钟级别数据里的天气信息。
 
 # In[255]:
 

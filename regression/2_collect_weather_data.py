@@ -14,7 +14,7 @@ import cPickle as pickle
 import os
 
 
-# 大家还记得上一个ipython notebook中的关联文件对吧，这里要加载进来使用了。
+
 
 # In[2]:
 
