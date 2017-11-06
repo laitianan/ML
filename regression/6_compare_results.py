@@ -10,7 +10,7 @@ import joblib
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.cross_validation import train_test_split
 from sklearn.metrics import r2_score
-get_ipython().magic('matplotlib inline')
+# get_ipython().magic('matplotlib inline')
 
 
 # In[3]:

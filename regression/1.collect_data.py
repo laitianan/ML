@@ -140,7 +140,7 @@ weather_dict
 
 # In[17]:
 
-import cPickle as pickle
+import pickle as pickle
 pickle.dump(weather_dict, open('weather_dict.pkl','wb'))
 
 
